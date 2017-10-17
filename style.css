@@ -1,0 +1,14 @@
+h1 {
+			background: aliceBlue;
+			font-family: "didot", baskerville, serif;
+			text-align: center;
+			color: tomato;
+		}
+
+		p {
+			font-family: "courier", monospace;
+			text-align: center;
+
+			color: darkGray;
+
+		}
