@@ -1,5 +1,5 @@
 h1 {
-			background: aliceBlue;
+
 			font-family: "didot", baskerville, serif;
 			text-align: center;
 			color: tomato;
@@ -11,4 +11,24 @@ h1 {
 
 			color: darkGray;
 
+		}
+
+		.bottom {
+			color: lightSalmon;
+		}
+
+		a {
+			color: lightSalmon;
+		}
+
+		a:hover {
+			color: red;
+		}
+
+		a:active {
+			color: gold;
+		}
+
+		.byline {
+			color: darkGray; background: aliceBlue;
 		}

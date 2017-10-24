@@ -1,0 +1,41 @@
+h1 {
+	font-family: "didot", baskerville, serif;
+	text-align: left;
+	color: tomato;
+	font-size: 155%;
+}
+
+p {
+	font-family: "garamond", times, serif;
+	text-align: left;
+	color: navajowhite;
+}
+
+img {
+	float: left;
+	padding-right: 20px;
+}
+
+a {
+	font-family: "didot", baskerville, serif;
+	font-size: 20px;
+	color: darkorange;
+}
+
+a:hover {
+	color: darkgray;
+}
+
+a:active {
+	color: gold;
+}
+
+.description {
+	color: sandybrown;
+	text-align: justify;
+
+}
+
+.byline {
+	color: darkgray;
+}
