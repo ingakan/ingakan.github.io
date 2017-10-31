@@ -1,6 +1,6 @@
-var questions = 8
+var questions = 7
 
-var questionsLeft = " [" + quetsions + "questions left]";
+/* var questionsLeft = " [" + quetsions + "questions left]";
 var ask = prompt("Do you want to do a MadLibs? Enter yes or no:");
 
 if (ask.toLowerCase() == "no") {
@@ -10,7 +10,9 @@ if (ask.toLowerCase() == "no") {
 if (ask.toLowerCase() == "yes") {
 	alert("OK, LET'S PLAY!!")
 }
-questions -= 1;
+*/
+
+
 questionsLeft = " [" + questions + "questions left]";
 
 //name
