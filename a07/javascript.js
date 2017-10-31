@@ -1,14 +1,39 @@
 var questions = 3;
 var questionsLeft = ' [' + questions + ' questions left]';
+
+
 var name = prompt('What is your name?' + questionsLeft);
 questions -= 1;
 questionsLeft = ' [' + questions + ' questions left]';
-var food = prompt('What is your favourite food?' + questionsLeft);
+
+
+var number = prompt('Enter a number between 0 and 999' + questionsLeft);
 questions -= 1;
 questionsLeft = ' [' + questions + ' questions left]';
-var bff = prompt('What is the name of your best friend?' + questionsLeft);
-alert('Good job!');
-var sentence = "<h2>My name is " + name + '.';
-sentence += ' I am a tiger living in the juggle. When I am hungry I go to human city and steal their ' + food + '.';
-sentence += ' One time I accidentally ate ' + bff + 'who is ' + 'best friend of ' + name +'.</h2>';
+
+var drink = prompt('What is your favorite drink?' + questionsLeft);
+questions -= 1;
+questionsLeft = ' [' + questions + ' questions left]';
+
+var candy = prompt('What is your favorite candy?' + questionsLeft);
+questions -= 1;
+questionsLeft = ' [' + questions + ' questions left]';
+
+
+var food = prompt('What is your favorite food?' + questionsLeft);
+questions -= 1;
+questionsLeft = ' [' + questions + ' questions left]';
+
+var color = prompt('What is your favorite color?' + questionsLeft);
+questions -= 1;
+questionsLeft = ' [' + questions + ' questions left]';
+
+var pet = prompt('cats or dogs?' + questionsLeft);
+
+alert('cool!');
+var sentence = "<h2>This is the future life of " + name + '.';
+sentence += ' They are currently 24 years old and trying their best to ignore that they have $' + number + 'K in student debt.';
+sentence += ' But do not worry, everything will be okay with a ' + drink + ' and ' + candy + ' in hand 24/7.';
+sentence += ' All of their friends are at SoulCycle and getting green smoothies and ' + food + ' but they cannot afford it.';
+sentence += ' But all is fine because they get to stay at home wearing ' + color + ' fuzzy socks while pettinf their ' + number + ' ' + pet + '.</h2>';
 document.write(sentence);
