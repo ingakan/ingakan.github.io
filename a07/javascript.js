@@ -1,0 +1,14 @@
+var questions = 3;
+var questionsLeft = ' [' + questions + ' questions left]';
+var name = prompt('What is your name?' + questionsLeft);
+questions -= 1;
+questionsLeft = ' [' + questions + ' questions left]';
+var food = prompt('What is your favourite food?' + questionsLeft);
+questions -= 1;
+questionsLeft = ' [' + questions + ' questions left]';
+var bff = prompt('What is the name of your best friend?' + questionsLeft);
+alert('Good job!');
+var sentence = "<h2>My name is " + name + '.';
+sentence += ' I am a tiger living in the juggle. When I am hungry I go to human city and steal their ' + food + '.';
+sentence += ' One time I accidentally ate ' + bff + 'who is ' + 'best friend of ' + name +'.</h2>';
+document.write(sentence);

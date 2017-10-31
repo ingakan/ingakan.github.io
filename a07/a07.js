@@ -20,27 +20,27 @@ var name = prompt("Enter your name: " + "questionsLeft");
 questions -= 1;
 questionsLeft = " [" + questions + "questions left]";
 //number
-var number = prompt("Enter a number between 0 and 999: ");
+var number = prompt("Enter a number between 0 and 999: " + "questionsLeft");
 questions -= 1;
 questionsLeft = " [" + questions + "questions left]";
 //drink
-var drink += prompt("What's your favorite drink?: ");
+var drink += prompt("What's your favorite drink?: " + "questionsLeft");
 questions -= 1;
 questionsLeft = " [" + questions + "questions left]";
 //candy
-var candy += prompt("What's your favorite candy?");
+var candy += prompt("What's your favorite candy?" + "questionsLeft");
 questions -= 1;
 questionsLeft = " [" + questions + "questions left]";
 //food
-var food += prompt("Enter a 'hipster' food: ");
+var food += prompt("Enter a 'hipster' food: " + "questionsLeft");
 questions -= 1;
 questionsLeft = " [" + questions + "questions left]";
 //color
-var color += prompt("What's your favorite color?");
+var color += prompt("What's your favorite color?" + "questionsLeft");
 questions -= 1;
 questionsLeft = " [" + questions + "questions left]";
 //pet
-var pet += prompt("cats or dogs?");
+var pet += prompt("cats or dogs?" + "questionsLeft");
 
 alert("ok thats all!");
 
