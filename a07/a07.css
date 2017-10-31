@@ -4,22 +4,22 @@ h1{
 	
 	color: darkred;
 
-	font-size: 50px;
+	font-size: 40px;
 }
 
 h2{
 
 	font-family: courier;
-	color: crimson;
-	font-size: 30px;
+	color: deeppink;
+	font-size: 20px;
 
 
 }
 
 a {
 	font-family: courier, serif;
-	font-size: 20px;
-	color: darkorange;
+	font-size: 10px;
+	color: salmon;
 }
 
 a:hover {

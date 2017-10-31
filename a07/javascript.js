@@ -20,7 +20,7 @@ questions -= 1;
 questionsLeft = ' [' + questions + ' questions left]';
 
 
-var food = prompt('What is your favorite food?' + questionsLeft);
+var food = prompt('What is your favorite food (plural form)?' + questionsLeft);
 questions -= 1;
 questionsLeft = ' [' + questions + ' questions left]';
 
@@ -31,9 +31,9 @@ questionsLeft = ' [' + questions + ' questions left]';
 var pet = prompt('cats or dogs?' + questionsLeft);
 
 alert('cool!');
-var sentence = "<h2>This is the future life of " + name + '.';
-sentence += ' They are currently 24 years old and trying their best to ignore that they have $' + number + 'K in student debt.';
+var sentence = "<h2>This is the future life of " + name + ',';
+sentence += ' who is currently 24 years old and trying their best to ignore that they have $' + number + 'K in student debt.';
 sentence += ' But do not worry, everything will be okay with a ' + drink + ' and ' + candy + ' in hand 24/7.';
 sentence += ' All of their friends are at SoulCycle and getting green smoothies and ' + food + ' but they cannot afford it.';
-sentence += ' But all is fine because they get to stay at home wearing ' + color + ' fuzzy socks while pettinf their ' + number + ' ' + pet + '.</h2>';
+sentence += ' But all is fine because they get to stay at home wearing ' + color + ' fuzzy socks while petting their ' + number + ' ' + pet + '.</h2>';
 document.write(sentence);
