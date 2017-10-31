@@ -1,4 +1,4 @@
-var questions = 7;
+var questions = 6;
 var questionsLeft = ' [' + questions + ' questions left]';
 
 
