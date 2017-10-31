@@ -1,5 +1,19 @@
-var questions = 6;
+var questions = 7;
 var questionsLeft = ' [' + questions + ' questions left]';
+
+var ask = prompt('Do you want to do a MadLibs? Enter yes or no: ' + questionsLeft);
+
+if (ask.toLowerCase() == "no") {
+	alert("sorry, that was rhetorical, say yes !!!!!")
+}
+
+if (ask.toLowerCase() == "yes") {
+	alert("OK, LET'S PLAY!!")
+}
+questions -= 1;
+questionsLeft = ' [' + questions + ' questions left]';
+
+
 
 
 var name = prompt('What is your name?' + questionsLeft);
