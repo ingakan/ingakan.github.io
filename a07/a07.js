@@ -1,4 +1,4 @@
-var questions = 7
+
 
 /* var questionsLeft = " [" + quetsions + "questions left]";
 var ask = prompt("Do you want to do a MadLibs? Enter yes or no:");
@@ -12,8 +12,8 @@ if (ask.toLowerCase() == "yes") {
 }
 */
 
-
-questionsLeft = " [" + questions + "questions left]";
+var questions = 7;
+var questionsLeft = " [" + questions + "questions left]";
 
 //name
 var name = prompt("Enter your name: " + "questionsLeft");
@@ -42,11 +42,11 @@ questionsLeft = " [" + questions + "questions left]";
 //pet
 var pet += prompt("cats or dogs?");
 
-alert("ok cool beans thats all!");
+alert("ok thats all!");
 
-var sentence = "This is the future life of " +name+ ".";
+var sentence = "<h2>This is the future life of " +name+ ".";
 sentence += "They are currently 24 years old and trying their best to ignore the fact that they have $" +number+ "K in student debt!";
 sentence += "But don't worry, everything will be okay with a " +drink+ " and " +candy+ " in hand 24/7.";
 sentence += "All of their friends are at SoulCycle and getting green smoothies and " +food+ " which they definitely can't afford right now, but who cares!?";
-sentence += "It's fine, they get to stay at home wearing " +color+ " fuzzy socks while petting their " +number+ " " +pet+ ".";
+sentence += "It's fine, they get to stay at home wearing " +color+ " fuzzy socks while petting their " +number+ " " +pet+ ".</h2>";
 document.write(sentence);
