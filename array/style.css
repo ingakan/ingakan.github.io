@@ -1,0 +1,45 @@
+h1 {
+	font-family: courier, sans-serif;
+	text-align: center;
+	color: #ff7c90
+}
+
+body {
+	font-family: courier, sans-serif;
+	background-color: #edf9ff;
+}
+
+img {
+
+	
+	display: block;
+	margin: auto;
+	width: 100%
+	
+}
+
+button {
+    background-color: #ff7c90; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: courier, sans-serif;
+
+}
+
+a {
+	font-family: courier, sans-serif;
+	font-size: 16px;
+	color: #70cfff;
+}
+
+a:hover {
+	color: #ff7c90;
+}
+
+a:active {
+	color: grey;
+}
