@@ -1,0 +1,99 @@
+h1 {
+	font-family: courier, sans-serif;
+	text-align: center;
+	color: steelblue
+}
+
+body {
+	font-family: courier, sans-serif;
+	background-color: white;
+
+}
+a {
+	font-family: courier, sans-serif;
+	font-size: 16px;
+	color: powderblue;
+}
+
+a:hover {
+	font-size: 40px;
+	cursor: pointer;
+}
+
+a:active {
+	color: cornflowerblue;
+}
+
+#head {
+	text-align: center;
+	color: grey;
+}
+
+
+
+p {
+	font-family: courier, sans-serif;
+	background-color: white;
+	color: dimgrey;
+	text-align: center;
+
+}
+
+img {
+
+	
+	display: block;
+	margin: auto;
+
+	
+}
+
+#enter {
+	display: block;
+	margin: auto;
+	width: 372px;
+	height: 33px;
+}
+
+
+button {
+    background-color: powderblue; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: courier, sans-serif;
+}
+
+button:hover {
+	background-color: powderblue;
+	border: none;
+    color: #fc4614;
+    padding: 19.5px 41.6px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 40px;
+    cursor: pointer;
+
+}
+.chillyarray {
+	text-align: center;
+	color: lightsteelblue;
+}
+
+
+
+#temp {
+	color: powderblue;
+	font-size: 140px;
+	font-family: helvetica;
+	
+}
+#temp:hover {
+	cursor: pointer;
+	color: cornflowerblue;
+}
+
+
