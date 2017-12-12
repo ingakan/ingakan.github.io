@@ -1,11 +1,21 @@
 function arrayLoop(){
 
 	var chilly = ["crisp wind", "locks tickling", "rosy cheeks", "thick knits", "zipped tight", "zipped high", "textured soles", "on heavy boots", "crunch of snow", "glass reflection", "of a coated path", "this is", "frozen nature", "<a href='temperature.html'>it can't be <i>that</i> cold...</a>"];
-        
-        for (var i = 0; i < chilly.length; i++) {
-            $("body").append("<p>" + chilly[i] + "</p>");
 
-}
+	var listOfChillies = document.querySelectorAll("p.chilly")
+
+	if (listOfChillies.length) {
+		listOfChillies.foreach   {
+			
+		}
+	}
+
+	else {
+		for (var i = 0; i < chilly.length; i++) {
+			$("body").append("<p class='chilly'>" + chilly[i] + "</p>");
+
+		}
+	}
 }
 
 function arrayLoop2(){

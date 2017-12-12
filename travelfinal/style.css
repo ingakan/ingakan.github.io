@@ -1,0 +1,280 @@
+html {
+	text-align: center;
+	margin: auto;
+}
+
+
+}
+body {
+	font-family: "Mr Bedfort", cursive;
+	font-size: 36px;
+	color: #b0d9e8;
+	margin: auto;
+	text-align: center;
+}
+p {
+	font-family: "Mr Bedfort", cursive;
+	font-size: 16px;
+	color: lightgrey;
+	margin: auto;
+	text-align: center;
+}
+
+h1 {
+	padding-top: 20px;
+	text-align: center;
+	font-family: 'Nunito Sans', Helvetica, sans-serif;
+	font-weight: 200;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+}
+.left {
+	padding-top: 20px;
+	padding-left: 12px;
+	text-align: left;
+	font-family: 'Nunito Sans', Helvetica, sans-serif;
+	font-weight: 200;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+}
+
+img {
+
+	text-align: center;
+
+	margin: auto;
+	width: 60%
+}
+
+a {
+	text-decoration: none;
+	font-family: "Mr Bedfort", cursive;
+	color: grey;
+	font-size: 22px;
+}
+
+
+a:hover {
+	font-size: 30px;
+	cursor: pointer;
+	color: pink;
+}
+
+a:active {
+	color: cornflowerblue;
+}
+
+
+
+#japan {
+	color: #ff583a;
+	text-shadow: 2px 2px #ffe6a3;
+}
+#japan:hover {
+	color:  #ffe6a3;
+	text-shadow: 2px 2px #ff583a;
+	font-weight: 700;	
+}
+
+
+#iceland {
+	color: #6fdbe8;
+	text-shadow: 4px 4px #fff17c;
+	padding-top: 20px;
+	text-align: center;
+	font-family: 'Nunito Sans', Helvetica, sans-serif;
+	font-weight: 200;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+
+}
+#iceland:hover {
+	color: #fff17c;
+	text-shadow: 4px 4px #6fdbe8;	
+	font-weight: 700;
+}
+
+#finland {
+	color: #9ec6ff;
+	text-shadow: 2px 2px #b5eaff;
+}
+#finland:hover {
+	color:  #b5eaff;
+	text-shadow: 2px 2px #9ec6ff;
+	font-weight: 700;
+	
+}
+#england {
+	color: #a00b50;
+	text-shadow: 2px 2px #efacc8;
+}
+#england:hover {
+	color:  #efacc8;
+	text-shadow: 2px 2px #a00b50;
+	font-weight: 700;
+	
+}
+
+#sweden {
+	color: #ce5844;
+	text-shadow: 2px 2px #ffc34c;
+}
+#sweden:hover {
+	color:  #ffc34c;
+	text-shadow: 2px 2px #ce5844;
+	font-weight: 700;
+	
+}
+#germany {
+	color: #ff9a3d;
+	text-shadow: 2px 2px #ffe83d;
+}
+#germany:hover {
+	color:  #ffe83d;
+	text-shadow: 2px 2px #ff9a3d;
+	font-weight: 700;
+	
+}
+#austria {
+	color: #ff5683;
+	text-shadow: 2px 2px #ffd3df;
+}
+#austria:hover {
+	color:  #ffd3df;
+	text-shadow: 2px 2px #ff5683;
+	font-weight: 700;
+	
+}
+#estonia {
+	color: #ffccde;
+	text-shadow: 4px 4px #ff4281;
+}
+#estonia:hover {
+	color:  #ff4281;
+	text-shadow: 4px 4px #ffccde;
+	font-weight: 700;
+	
+}
+#hongkong {
+	color: #b5d0ff;
+	text-shadow: 4px 4px #5a46f2;
+}
+#hongkong:hover {
+	color:  #5a46f2;
+	text-shadow: 4px 4px #b5d0ff;
+	font-weight: 700;
+	
+}
+/*geysir*/
+.hs-wrapper img{
+	top: 0px;
+	left: 0px;
+	width: 400px;
+	height: 600px;
+	position: absolute;
+	animation: showMe 0.8s linear infinite 0s forwards;
+	animation-play-state: running;	
+}
+.hs-wrapper:hover img{
+	padding: 20px;
+	animation-play-state: paused;
+}
+@keyframes showMe {
+    0% { visibility: visible; z-index: 100; }
+	12.5% { visibility: visible; z-index: 100; }
+	25% { visibility: hidden; z-index: 0; }
+    100% { visibility: hidden; z-index: 0; }
+}
+.hs-wrapper img:nth-child(1){
+	z-index: 9;
+}
+.hs-wrapper img:nth-child(2){
+	animation-delay: 0.1s;
+	z-index: 8;
+}
+.hs-wrapper img:nth-child(3){
+	animation-delay: 0.4s;
+	z-index: 7;
+}
+.hs-wrapper img:nth-child(4){
+	animation-delay: 0.6s;
+	z-index: 6;
+}
+.hs-wrapper img:nth-child(5){
+	animation-delay: 0.8s;
+	z-index: 5;
+}
+.hs-wrapper img:nth-child(6){
+	animation-delay: 1s;
+	z-index: 4;
+}
+.hs-wrapper img:nth-child(7){
+	animation-delay: 1.2s;
+	z-index: 3;
+}
+.hs-wrapper img:nth-child(8){
+	animation-delay: 1.4s;
+	z-index: 2;
+}
+.hs-wrapper img:nth-child(9){
+	animation-delay: 1.6s;
+	z-index: 1;
+}
+.hs-wrapper:hover .hs-overlay{
+	opacity: 1;
+	box-shadow: 0 0 0 5px rgba(255,255,255,0.3) inset;
+}
+
+
+
+/*RESPONSIVE LAYOUT*/
+
+box-sizing: border
+.outer {
+width: 100%;
+text-align: center;
+margin: auto;
+}
+.inner {
+	/*text-align: left;*/
+	text-align: center;
+	display: inline-block;
+	margin: auto
+}
+.column {
+   /* text-align: center;*/
+    /*position: relative;*/
+/*	display: inline-block;
+*/	
+	float: left;
+	width: 360px;
+	/*height: auto;*/
+	
+	padding: 10px;
+
+	box-sizing: border-box;
+}
+.column img {
+    margin-top: 10px;
+    width: 100%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media (max-width: 800px) {
+    .column {
+        width: 50%;
+    }
+}
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+   }
+}
+
+
+
+
+}

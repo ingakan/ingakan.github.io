@@ -1,0 +1,44 @@
+.countryheader {
+	font-family: helvetica;
+	font-style: bold;
+	font-size: 120px;
+
+}
+
+#J {
+	color: #ff4332;
+}
+#A {
+	color: #ff5849;
+}
+#P {
+	color: #ff695b;
+}
+#A2 {
+	color: #ff7a6d;
+}
+#N {
+	color: #ff8d82;
+}
+#N:hover {
+	color: #ff4332;
+}
+#A2:hover {
+	color: #ff5849;
+}
+#P:hover {
+	color: #ff695b;
+}
+#A:hover {
+	color: #ff7a6d;
+}
+#J:hover {
+	color: #ff8d82;
+}
+
+
+#subline {
+	font-size: 18px;
+}
+
+

@@ -4,5 +4,7 @@ function arrayLoop(){
         
         for (var i = 0; i < donuts.length; i++) {
             $("body").append("<p>" + donuts[i] + "</p>");
+
+    
 }
 }
