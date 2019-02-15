@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow:400,700|Montserrat:400,700');
+
+html {
+	margin: 20px;
+}
+
+body {
+	/*background-image: url("IMG_3616.jpg");*/
+
+  /*background-color: #cccccc;*/ /* Used if the image is unavailable */
+  /*height: 100%;*/ /* You must set a specified height */
+  /*width: 100%;*/
+  /*background-position: center;*/ /* Center the image */
+  /*background-repeat: no-repeat;*/ /* Do not repeat the image */
+
+background: url(IMG_3616.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+
+
+
+
+}
+
+.frm {
+	font-family: Montserrat;font-size: 30px;color: #6666FD;
+
+}
+.sq {
+	padding-top: 300px;
+	padding-left: 100px;
+}
+
+
+.getset {
+	  font-family: Barlow;
+  font-weight: bold;
+  font-size: 150px;
+  color: #6666FD;
+  
+}
+
+.sub {
+	font-family: Montserrat;
+	color: #6666FD;
+	font-size: 80px;
+}
+
